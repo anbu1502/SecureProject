@@ -1,0 +1,135 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5683317100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should in login page",
+            "match": {
+              "location": "StepDefinition.user_should_in_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Verify the add and remove products",
+        "description": "",
+        "id": "verify-the-flipkart-page;verify-the-add-and-remove-products",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3485199900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should login \"9488381520\" and \"g1r9b6617\" then verify is \"Anbu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9488381520\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"g1r9b6617\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Anbu\"",
+                  "offset": 62
+                }
+              ],
+              "location": "StepDefinition.user_should_login_and_then_verify_is(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2899459300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should search electronics and select inverter AC",
+            "match": {
+              "location": "StepDefinition.user_should_search_electronics_and_select_inverter_AC()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11605095200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should add product to cart",
+            "match": {
+              "location": "StepDefinition.user_should_add_product_to_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3393663300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should add one more quatity then print discount and price",
+            "match": {
+              "location": "StepDefinition.user_should_add_one_more_quatity_then_print_discount_and_price()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 916707200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should print total price",
+            "match": {
+              "location": "StepDefinition.user_should_print_total_price()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1752014700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should navigate to myCart page and the remove products then verify",
+            "match": {
+              "location": "StepDefinition.user_should_navigate_to_myCart_page_and_the_remove_products_then_verify()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@positive"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the Flipkart page",
+    "description": "",
+    "id": "verify-the-flipkart-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/login.feature",
+    "tags": []
+  }
+]
